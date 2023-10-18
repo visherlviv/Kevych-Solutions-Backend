@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { TrainService } from './trains.service';
 import { TraineScheduleController } from './trains.controller';
-import { PrismaService } from 'src/prisma.service';
+import { PrismaService } from '../prisma.service';
 import { AuthModule } from 'src/auth/auth.module';
 
 @Module({
