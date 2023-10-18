@@ -18,7 +18,7 @@
                 "OPTIONS"
             ],
             "headers": {
-                "Access-Control-Allow-Origin": "https://apple-gn6a.vercel.app"
+                "Access-Control-Allow-Origin": "kevych-solutions-frontend.vercel.app"
             }
         }
     ]
