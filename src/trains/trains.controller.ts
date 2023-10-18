@@ -17,7 +17,7 @@ import { UpdateScheduleDto } from './dto/update-train-schedule.dto';
 import { TrainService } from './trains.service';
 import { AuthGuard } from '@nestjs/passport';
 
-@Controller('/shop/phones')
+@Controller('/trains')
 //\@UseGuards(AuthGuard())
 export class TraineScheduleController {
   constructor(private readonly TrainScheduleService: TrainService) { }
